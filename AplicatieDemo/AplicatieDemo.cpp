@@ -5,9 +5,11 @@
 
 int main()
 {
+	int n;
+	std::cin >> n;
     // print numbers from 1 to 10
 	int sum = 0;
-	for (int i = 1; i <= 10; i++)
+	for (int i = 1; i <= n; i++)
 	{
 		sum = sum + i;
 	}
