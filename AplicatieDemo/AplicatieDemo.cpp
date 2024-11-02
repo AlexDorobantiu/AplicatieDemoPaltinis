@@ -5,7 +5,13 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    // print numbers from 1 to 10
+	int sum = 0;
+	for (int i = 1; i <= 10; i++)
+	{
+		sum = sum + i;
+	}
+	std::cout << "Suma este: " << sum << std::endl;
     // wait for a key press
 	std::cin.get();
 }
