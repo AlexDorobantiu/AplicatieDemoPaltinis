@@ -15,6 +15,7 @@ int main()
 	}
 	std::cout << "Suma este: " << sum << std::endl;
     // wait for a key press
+	std:cout<<"Modificat";
 	std::cin.get();
 }
 
